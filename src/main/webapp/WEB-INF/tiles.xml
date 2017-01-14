@@ -23,6 +23,37 @@
        <put-attribute name="title" value="Welcome to ProjectList" />  
        <put-attribute name="body" value="/WEB-INF/jsp/projectList.jsp" />  
    </definition> 
+   
+    <definition name="home" extends="base-definition">  
+       <put-attribute name="title" value="Welcome to Home" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />  
+   </definition> 
+   
+   <definition name="register" extends="base-definition">  
+       <put-attribute name="title" value="Welcome to JEDLab register pm" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />  
+   </definition>
+   
+   <definition name="thankyou" extends="base-definition">  
+       <put-attribute name="title" value="Welcome to JEDLab pm" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/thankyou.jsp" />  
+   </definition> 
+   
+    <definition name="activated" extends="base-definition">  
+       <put-attribute name="title" value="Welcome to JEDLab pm" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/activated.jsp" />  
+   </definition> 
+   
+      <definition name="login" extends="base-definition">  
+       <put-attribute name="title" value="Welcome to Pm Login" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />  
+   </definition> 
+   
+   <definition name="dashboard" extends="base-definition">  
+       <put-attribute name="title" value="Welcome to Dashboard" />  
+       <put-attribute name="body" value="/WEB-INF/jsp/dashboard.jsp" />  
+   </definition> 
+ 
  
      
   
